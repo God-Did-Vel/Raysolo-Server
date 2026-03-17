@@ -6,8 +6,9 @@
     // "outDir": "./dist",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
+    "module": "Nodenext",
+    "target": "ES2022",
+    "outDir": "dist",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -29,6 +30,7 @@
     // "noPropertyAccessFromIndexSignature": true,
     // Recommended Options
     "strict": true,
+    "rootDir": "src",
     "jsx": "react-jsx",
     // "verbatimModuleSyntax": true,
     "isolatedModules": true,
