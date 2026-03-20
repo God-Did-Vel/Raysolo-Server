@@ -25,8 +25,12 @@ connectDB();
 
 const app = express();
 
-// Middleware (CORS and JSON parsing FIRST)
-app.use(cors({ origin: process.env.FRONTEND_ORIGIN || 'http://localhost:3000, https://n-b-hotel-website.vercel.app/' }));
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://n-b-hotel-website.vercel.app'
+  ]
+}));
 app.use(express.json());
 
 // Basic route
