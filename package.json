@@ -2,12 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Hotel Management Frontend",
-  "main": "server.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
     "start": "node dist/server.js",
     "dev": "nodemon --exec tsx src/server.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "render-build": "npm run build"
   },
   "keywords": [],
   "author": "",
