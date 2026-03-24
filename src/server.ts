@@ -28,7 +28,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://fordham-suite-web.vercel.app'
+    'https://fordham-suite-web.vercel.app',
+    'https://fordham-suites-website.vercel.app'
   
   ]
 }));
